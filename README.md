@@ -1,6 +1,6 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 5 - Choose Your Own API
+# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
 
 Submitted by: **Julian Spindola**
 
@@ -8,9 +8,9 @@ Time spent: **2** hours spent in total
 
 ## Summary
 
-**unit-5** is an android app that fetches and displays a random photo from the Picsum Photos API along with its author and web URL whenever the user clicks a button.
+**Picsum Explorer** is an android app that displays a scrollable list of 20 photos fetched from the Picsum Photos API, displaying the image alongside its author name and web URL using a RecyclerView.
 
-If I had to describe this project in three (3) emojis, they would be: 📸 🖼️ 🎲
+If I had to describe this project in three (3) emojis, they would be: 📸 🖼️ 📱
 
 ## Application Features
 
@@ -19,28 +19,24 @@ If I had to describe this project in three (3) emojis, they would be: 📸 🖼�
 The following REQUIRED features are completed:
 
 - [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Display at least three (3) pieces of data for each API entry retrieved
-- [x] A working Button requests a new API entry and updates the data displayed
+- [x] Implement a RecyclerView to display a list of entries from the API
+- [x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-- [x] Add a query to the API request
-    - The query I added is **page (a random integer between 1 and 100) and limit=1**
-- [ ] Build a UI to allow users to add that query
+- [ ] Add a UI element for the user to interact with API further
+- [ ] Show a `Toast` or `Snackbar` when an item is clicked
+- [ ] Add item dividers with `DividerItemDecoration`
 
 The following EXTRA features are implemented:
 
 - [ ] List anything else that you added to improve the app!
 
-## API Choice
-
-My chosen API for this project is **Picsum Photos API (https://picsum.photos)**.
-
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://i.imgur.com/EHRTdMn.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/AltKhPY.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **ScreenToGif**
 
@@ -51,11 +47,11 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+Fetching list items asynchronously using AsyncHttpClient and binding photo URLs, author names, and web links dynamically in a custom RecyclerView adapter using Glide.
 
 ## License
 
-Copyright **2026** **Julian Spindola**
+Copyright 2026 Julian Spindola
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
