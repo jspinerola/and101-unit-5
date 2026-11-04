@@ -1,20 +1,16 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-<<<<<<< Updated upstream
-# AND101 Project 5 - Choose Your Own API
-=======
 # AND101 Project 7 - CYOAPI Part 3: Beautified
->>>>>>> Stashed changes
 
 Submitted by: **Julian Spindola**
 
-Time spent: **2** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Summary
 
-**unit-5** is an android app that fetches and displays a random photo from the Picsum Photos API along with its author and web URL whenever the user clicks a button.
+**Picsum Explorer** is an Android app that displays a scrollable list of 20 photos fetched from the Picsum Photos API, displaying each image alongside its author name and web URL using a RecyclerView, customized with custom fonts, themes, styles, and Material card layouts.
 
-If I had to describe this project in three (3) emojis, they would be: 📸 🖼️ 🎲
+If I had to describe this project in three (3) emojis, they would be: 🎨 📸 ✨
 
 ## Application Features
 
@@ -22,25 +18,6 @@ If I had to describe this project in three (3) emojis, they would be: 📸 🖼�
 
 The following REQUIRED features are completed:
 
-<<<<<<< Updated upstream
-- [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Display at least three (3) pieces of data for each API entry retrieved
-- [x] A working Button requests a new API entry and updates the data displayed
-
-The following STRETCH features are implemented:
-
-- [x] Add a query to the API request
-    - The query I added is **page (a random integer between 1 and 100) and limit=1**
-- [ ] Build a UI to allow users to add that query
-
-The following EXTRA features are implemented:
-
-- [ ] List anything else that you added to improve the app!
-
-## API Choice
-
-My chosen API for this project is **Picsum Photos API (https://picsum.photos)**.
-=======
 - [x] App contains a RecyclerView that displays a list of scrollable data
 - [x] App displays at least two (2) pieces of data for each RecyclerView item
 - [x] Use a downloadable font with custom color and size
@@ -55,17 +32,12 @@ The following STRETCH features are implemented:
 The following EXTRA features are implemented:
 
 - [x] Customized RecyclerView item layout using MaterialCardView with rounded corners and elevation
->>>>>>> Stashed changes
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<<<<<<< Updated upstream
-<img src='https://i.imgur.com/EHRTdMn.gif' title='Video Demo' width='' alt='Video Demo' />
-=======
 <img src='https://i.imgur.com/fC4koQC.gif' title='Video Demo' width='' alt='Video Demo' />
->>>>>>> Stashed changes
 
 GIF created with **ScreenToGif**
 
@@ -76,11 +48,11 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+Customized theme colors, typography using `@font/poppins`, reusable text styles in `themes.xml`, and wrapped RecyclerView list items in elevated `MaterialCardView` cards.
 
 ## License
 
-Copyright **2026** **Julian Spindola**
+Copyright 2026 Julian Spindola
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
