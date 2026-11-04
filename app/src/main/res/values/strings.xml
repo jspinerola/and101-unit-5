@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">unit-5</string>
+    <string name="app_name">Picsum Explorer</string>
+    <string name="app_title">✨ Picsum Explorer ✨</string>
+    <string name="author_format">Author: %1$s</string>
 </resources>

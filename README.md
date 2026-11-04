@@ -1,16 +1,16 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+# AND101 Project 7 - CYOAPI Part 3: ✨ Beautified ✨
 
 Submitted by: **Julian Spindola**
 
-Time spent: **2** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Summary
 
-**Picsum Explorer** is an android app that displays a scrollable list of 20 photos fetched from the Picsum Photos API, displaying the image alongside its author name and web URL using a RecyclerView.
+**Picsum Explorer** is an Android app that displays a scrollable list of 20 photos fetched from the Picsum Photos API, displaying each image alongside its author name and web URL using a RecyclerView, customized with custom fonts, themes, styles, and Material card layouts.
 
-If I had to describe this project in three (3) emojis, they would be: 📸 🖼️ 📱
+If I had to describe this project in three (3) emojis, they would be: 🎨 📸 ✨
 
 ## Application Features
 
@@ -18,19 +18,16 @@ If I had to describe this project in three (3) emojis, they would be: 📸 🖼�
 
 The following REQUIRED features are completed:
 
-- [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Implement a RecyclerView to display a list of entries from the API
-- [x] Display at least three (3) pieces of data for each RecyclerView item
+- [x] App contains a RecyclerView that displays a list of scrollable data
+- [x] App displays at least two (2) pieces of data for each RecyclerView item (Image, Author name, Web URL)
+- [x] Use a downloadable / custom font (`@font/poppins`) with custom color and size
+- [x] Modify the theme of the app in `themes.xml` (custom primary/secondary colors and font family)
+- [x] Define and apply at least one style in `themes.xml` (`TextAppearance.PhotoAuthor`, `TextAppearance.PhotoUrl`)
 
 The following STRETCH features are implemented:
 
-- [ ] Add a UI element for the user to interact with API further
-- [ ] Show a `Toast` or `Snackbar` when an item is clicked
-- [ ] Add item dividers with `DividerItemDecoration`
-
-The following EXTRA features are implemented:
-
-- [ ] List anything else that you added to improve the app!
+- [x] Customize the view of a RecyclerView item using `MaterialCardView` with rounded corners and elevation
+- [x] Add text and string formatting to `strings.xml` resource files
 
 ## Video Demo
 
@@ -47,7 +44,7 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-Fetching list items asynchronously using AsyncHttpClient and binding photo URLs, author names, and web links dynamically in a custom RecyclerView adapter using Glide.
+Customized theme colors, typography using `@font/poppins`, reusable text styles in `themes.xml`, and wrapped RecyclerView list items in elevated `MaterialCardView` cards.
 
 ## License
 

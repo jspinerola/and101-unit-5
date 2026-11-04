@@ -27,11 +27,12 @@ class PhotoAdapter(private val photoList: List<PhotoItem>) : RecyclerView.Adapte
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val photo = photoList[position]
+        val context = holder.itemView.context
 
-        holder.authorTextView.text = "Author: ${photo.author}"
+        holder.authorTextView.text = context.getString(R.string.author_format, photo.author)
         holder.urlTextView.text = photo.url
 
-        Glide.with(holder.itemView.context)
+        Glide.with(context)
             .load(photo.imageUrl)
             .fitCenter()
             .into(holder.photoImageView)
